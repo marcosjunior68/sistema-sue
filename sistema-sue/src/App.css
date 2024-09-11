@@ -1,0 +1,78 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7BCAF4;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-container, .register-container {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 300px;
+  }
+  
+  h2 {
+    color: #7DADDA;
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    color: #7DADDA;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #7DADDA;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    background-color: #7DADDA;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #7BCAF4;
+  }
+  
+  .toggle-btn {
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  .toggle-btn:hover {
+    color: #7DADDA;
+  }
+  
